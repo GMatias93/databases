@@ -3,9 +3,11 @@ CREATE DATABASE chat;
 USE chat;
 
 CREATE TABLE messages (
-  /* Describe your table here.*/
+  id INTEGER PRIMARY KEY,
+  tweet TEXT
 );
 
+  /* Describe your table here.*/
 /* Create other tables and define schemas for them here! */
 
 
